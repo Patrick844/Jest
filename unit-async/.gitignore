@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+
+# Output of 'npm pack'
+*.tgz
+
+# User-specific files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+test-result.xml
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*~
+\#*\#
+.cache
+
+# Jest coverage
+coverage/
+
+# IDE directories
+.vscode/
+.idea/
+
+# Jest snapshot directory
+__snapshots__/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Environment variables file
+.env
+.env.local
+.env.*.local
+
+# ESLint cache
+.eslintcache
+
+# Docker Compose file
+docker-compose.yml
+docker-compose.override.yml
